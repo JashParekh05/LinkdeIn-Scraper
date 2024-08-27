@@ -1,1 +1,1 @@
-# LinkdeIn-Scrapper
+# LinkdeIn-Scraper
