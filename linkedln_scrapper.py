@@ -55,8 +55,9 @@ def main():
         time.sleep(2)  # Let the login page load
 
         # Find the username and password fields and enter credentials
-        driver.find_element(By.ID, "username").send_keys("jash.parekh05@gmail.com")
-        driver.find_element(By.ID, "password").send_keys("Janu*2022!!")
+        # Enter Personal Username and Password to start Chromewebdriver login
+        driver.find_element(By.ID, "username").send_keys("************")
+        driver.find_element(By.ID, "password").send_keys("************")
 
         # Click the Sign In button
         driver.find_element(By.XPATH, "//button[@type='submit']").click()
